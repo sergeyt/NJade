@@ -4,7 +4,7 @@ using NJade.Ast;
 
 namespace NJade
 {
-	internal class Parser
+	internal static class Parser
 	{
 		public static JadeTemplate Parse(TextReader input)
 		{
